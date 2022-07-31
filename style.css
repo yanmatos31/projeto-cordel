@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@font-face {
+    font-family: sigmar;
+    src: url(fontes/SigmarOne-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: rochester;
+    src: url(fontes/Rochester-Regular.ttf) format("truetype");
+}
+header{
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header>h1{
+    font-size: 3em;
+    font-family: sigmar, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    border:1px solid black
+}
+img{
+    display: block;
+    margin: auto;
+}
+main> p{
+
+    background-image: none;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: auto;
+    font-family: rochester, Arial, Helvetica, sans-serif;
+    line-height: 1.6cm;
+}
+div#joana > p{
+    background-color: rgba(0, 0, 0, 0.352);
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px 10px;
+    font-family: rochester, Arial, Helvetica, sans-serif;
+    line-height: 1.6cm;
+    position: absolute;
+    top: 5%;
+}
+div#joana{
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+div#folha{
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+div#folha > p{
+    background-color: rgba(0, 0, 0, 0.352);
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px 10px;
+    font-family: rochester, Arial, Helvetica, sans-serif;
+    line-height: 1.6cm;
+    position: absolute;
+    top: 5%;
+}
+footer>p{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
