@@ -7,6 +7,9 @@
     font-family: rochester;
     src: url(fontes/Rochester-Regular.ttf) format("truetype");
 }
+*{
+    font-size: 2vw;
+}
 header{
     padding: 40px;
     background-color: black;
@@ -14,9 +17,18 @@ header{
     text-align: center;
 }
 header>h1{
-    font-size: 3em;
+    font-size: 7vw;
     font-family: sigmar, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0px;
+    font-variant: small-caps;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    font-style: italic;
+    text-decoration: underline;
 }
 body{
     margin: 0px;
@@ -26,57 +38,46 @@ img{
     display: block;
     margin: auto;
 }
-main> p{
-
+section > p{
     background-image: none;
     text-align: left;
-    font-size: 2em;
-    font-weight: bold;
-    font-style: italic;
-    padding-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 4vw;
+    padding-left: 15px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     padding-right: auto;
     font-family: rochester, Arial, Helvetica, sans-serif;
     line-height: 1.6cm;
 }
-div#joana > p{
-    background-color: rgba(0, 0, 0, 0.352);
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.253);
     color: white;
-    text-align: left;
-    font-size: 2em;
-    font-weight: bold;
-    font-style: italic;
-    padding: 30px 10px;
+    font-size: 4vw;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.866);
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: auto;
     font-family: rochester, Arial, Helvetica, sans-serif;
     line-height: 1.6cm;
-    position: absolute;
+    display: inline-block;
     top: 5%;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.734);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
 }
-div#joana{
+section#joana{
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
-    height: 100vh;
-    position: relative;
+    
+    background-position: right center;
+    
 }
-div#folha{
+section#folha{
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-}
-div#folha > p{
-    background-color: rgba(0, 0, 0, 0.352);
-    color: white;
-    text-align: left;
-    font-size: 2em;
-    font-weight: bold;
-    font-style: italic;
-    padding: 30px 10px;
-    font-family: rochester, Arial, Helvetica, sans-serif;
-    line-height: 1.6cm;
-    position: absolute;
-    top: 5%;
+    
 }
 footer>p{
     margin: 0px;
